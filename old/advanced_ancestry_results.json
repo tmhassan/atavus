@@ -1,0 +1,203 @@
+{
+  "timestamp": "2025-06-29T03:07:58.224296",
+  "analysis_type": "Advanced_Ancestry_Analysis",
+  "methodology": "HarappaWorld + PuntDNAL + qpAdm",
+  "file_info": {
+    "filename": "genome_Taariq_Hassan_v5_Full_20250410133723.txt",
+    "total_lines": 643185,
+    "snps_parsed": 625474
+  },
+  "advanced_ancestry_analysis": {
+    "main_percentages": {
+      "European": 31.363177324849545,
+      "South_Asian": 10.752116508558112,
+      "East_Asian": 18.392189397267053,
+      "African": 10.397426808127854,
+      "Middle_Eastern": 5.35386771254762,
+      "Native_American": 8.455939671790635,
+      "Steppe": 13.304235066068737,
+      "Oceanian": 1.9810475107904433
+    },
+    "regional_breakdown": {
+      "European": {
+        "Scandinavian": 5.018108371975927,
+        "Baltic": 3.7635812789819454,
+        "North_Slavic": 4.390844825478936,
+        "Germanic": 5.645371918472918,
+        "Mediterranean": 5.018108371975927,
+        "Sardinian": 1.8817906394909727,
+        "Basque": 1.2545270929939818,
+        "Italian": 4.390844825478936
+      },
+      "South_Asian": {
+        "ASI": 3.2256349525674337,
+        "ANI": 2.1504233017116223,
+        "Baloch": 1.6128174762837169,
+        "Brahui": 0.8064087381418584,
+        "Makrani": 1.0752116508558112,
+        "Sindhi": 0.8064087381418584,
+        "Pathan": 1.0752116508558112
+      },
+      "East_Asian": {
+        "Han_Chinese": 6.130729799089018,
+        "Japanese": 3.269722559514143,
+        "Korean": 2.452291919635607,
+        "Mongolian": 1.6348612797570714,
+        "Siberian": 2.0435765996963395,
+        "Southeast_Asian": 2.861007239574875
+      },
+      "African": {
+        "West_African": 2.5993567020319635,
+        "East_African": 1.7329044680213093,
+        "Central_African": 1.2996783510159817,
+        "Southern_African": 0.8664522340106546,
+        "Ethiopian": 1.0830652925133182,
+        "Pygmy": 0.4332261170053273,
+        "Berber": 1.2996783510159817,
+        "Egyptian": 1.0830652925133182
+      },
+      "Middle_Eastern": {
+        "Levantine": 1.003850196102679,
+        "Arabian": 0.8365418300855656,
+        "Mesopotamian": 0.6692334640684525,
+        "Anatolian": 0.8365418300855656,
+        "Caucasian": 0.8365418300855656,
+        "Iranian": 1.171158562119792
+      },
+      "Native_American": {
+        "North_American": 2.4159827633687527,
+        "Central_American": 1.811987072526564,
+        "South_American": 3.019978454210941,
+        "Inuit": 1.2079913816843764
+      },
+      "Oceanian": {
+        "Melanesian": 0.8490203617673326,
+        "Polynesian": 0.5660135745115552,
+        "Australian_Aboriginal": 0.5660135745115552
+      }
+    },
+    "ancient_dna_components": {
+      "Yamnaya": 0.0,
+      "Anatolian_Farmer": 0.0,
+      "Western_Hunter_Gatherer": 0.0,
+      "Eastern_Hunter_Gatherer": 0.0,
+      "Caucasus_Hunter_Gatherer": 0.0,
+      "Ancient_North_Eurasian": 0.0,
+      "Basal_Eurasian": 0.0,
+      "Natufian": 0.0,
+      "Iran_Neolithic": 0.0,
+      "Steppe_MLBA": 0.0
+    },
+    "formal_statistics": {
+      "f3_European": 0.0,
+      "f3_Asian": 0.0,
+      "f3_African": 0.0,
+      "f4_test": 0.05236025395628519
+    },
+    "confidence_scores": {
+      "European": 17.225192441616514,
+      "South_Asian": 10.354838836186039,
+      "East_Asian": 12.901529799089017,
+      "African": 10.236608936042618,
+      "Middle_Eastern": 8.555422570849206,
+      "Native_American": 9.589446557263544,
+      "Steppe": 11.20554502202291,
+      "Oceanian": 7.43114917026348
+    },
+    "quality_metrics": {
+      "snp_count": 16927,
+      "data_completeness": 1.0,
+      "formal_stat_significance": 0.05236025395628519,
+      "analysis_confidence": 92.25693333333334,
+      "model_resolution": 17.5
+    },
+    "model_fit_statistics": {
+      "mse": 0.018410903809433228,
+      "r_squared": -Infinity,
+      "residual": 16.304298681890998
+    }
+  },
+  "parsing_statistics": {
+    "total_lines": 643185,
+    "valid_snps": 643161,
+    "rs_snps": 625474,
+    "internal_markers": 17687,
+    "invalid_snps": 0,
+    "no_calls": 15116,
+    "chromosomes_found": [
+      "6",
+      "3",
+      "17",
+      "11",
+      "21",
+      "10",
+      "16",
+      "20",
+      "8",
+      "15",
+      "14",
+      "12",
+      "19",
+      "1",
+      "MT",
+      "18",
+      "22",
+      "Y",
+      "4",
+      "X",
+      "7",
+      "13",
+      "2",
+      "5",
+      "9"
+    ],
+    "genotype_distribution": {
+      "TT": 105932,
+      "CC": 145923,
+      "GG": 146054,
+      "AA": 105893,
+      "AC": 9527,
+      "CT": 41257,
+      "AG": 40881,
+      "GT": 9485,
+      "--": 15116,
+      "CG": 344,
+      "ID": 58,
+      "AT": 235,
+      "G": 5580,
+      "T": 5405,
+      "I": 203,
+      "A": 5321,
+      "C": 5867,
+      "D": 80
+    },
+    "quality_metrics": {
+      "success_rate": 99.99626856969613,
+      "no_call_rate": 2.350266884963485,
+      "rs_snp_percentage": 97.24998872755033,
+      "chromosome_coverage": 25,
+      "genotype_diversity": 18
+    },
+    "file_metadata": {
+      "file_id": "9185d421-0903-4c4b-857b-faaaf96e1b51",
+      "signature": "1e5f545e51e64fa67ed8287b4faf8d47cd7a1ff8118205fd60d5a5a2d0955f10",
+      "timestamp": "2025-04-10 13",
+      "source": "23andMe",
+      "improvements in our ability to call genotypes. More information about these changes can be found at": "",
+      "https": "//www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/",
+      "More information on reference human assembly builds": ""
+    },
+    "summary": {
+      "total_snps_parsed": 643161,
+      "rs_snps_count": 625474,
+      "internal_markers_count": 17687,
+      "parsing_success_rate": 99.99626856969613,
+      "data_quality_score": 92.95
+    }
+  },
+  "performance": {
+    "parsing_time_seconds": 2.5680577754974365,
+    "analysis_time_seconds": 6.699957847595215,
+    "total_time_seconds": 9.268015623092651
+  }
+}

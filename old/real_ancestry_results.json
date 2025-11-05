@@ -1,0 +1,154 @@
+{
+  "timestamp": "2025-06-29T03:20:34.218663",
+  "analysis_type": "Real_Ancestry_Analysis",
+  "methodology": "Ancestry_Informative_Markers + Population_Genetics",
+  "file_info": {
+    "filename": "genome_Taariq_Hassan_v5_Full_20250410133723.txt",
+    "total_lines": 643185,
+    "snps_parsed": 625474
+  },
+  "real_ancestry_analysis": {
+    "ancestry_percentages": {
+      "S_Indian": 34.492769217883776,
+      "Baloch": 6.211882560834409,
+      "SW_Asian": 6.0369116884629355,
+      "NE_Euro": 1.3663982804682286,
+      "Mediterranean": 3.7142556162344715,
+      "NE_Asian": 10.096393547862112,
+      "Beringian": 10.241662909138872,
+      "Papuan": 27.8397261791152
+    },
+    "confidence_scores": {
+      "S_Indian": 65.28089376430347,
+      "Baloch": 34.99839789769912,
+      "SW_Asian": 34.69127445897529,
+      "NE_Euro": 25.577598853645483,
+      "Mediterranean": 29.904741839394415,
+      "NE_Asian": 40.82616712714617,
+      "Beringian": 41.01825146323544,
+      "Papuan": 59.41696030988632
+    },
+    "population_distances": {
+      "S_Indian": 0.2357142857142857,
+      "Baloch": 0.40714285714285714,
+      "NE_Asian": 0.3585714285714286,
+      "SW_Asian": 0.41000000000000003,
+      "NE_Euro": 0.5585714285714285,
+      "Papuan": 0.2571428571428571,
+      "Mediterranean": 0.4585714285714285,
+      "Beringian": 0.3571428571428571
+    },
+    "quality_metrics": {
+      "markers_analyzed": 74,
+      "known_aims_used": 14,
+      "average_population_distance": 0.38035714285714284,
+      "analysis_resolution": 8,
+      "data_quality_score": 100
+    }
+  },
+  "comparison_with_harappaworld": {
+    "expected_results": {
+      "S_Indian": 47.4,
+      "Baloch": 32.4,
+      "NE_Asian": 4.6,
+      "SW_Asian": 4.0,
+      "NE_Euro": 3.2,
+      "Papuan": 3.2,
+      "Mediterranean": 2.8,
+      "Beringian": 2.4
+    },
+    "calculated_results": {
+      "S_Indian": 34.492769217883776,
+      "Baloch": 6.211882560834409,
+      "SW_Asian": 6.0369116884629355,
+      "NE_Euro": 1.3663982804682286,
+      "Mediterranean": 3.7142556162344715,
+      "NE_Asian": 10.096393547862112,
+      "Beringian": 10.241662909138872,
+      "Papuan": 27.8397261791152
+    }
+  },
+  "parsing_statistics": {
+    "total_lines": 643185,
+    "valid_snps": 643161,
+    "rs_snps": 625474,
+    "internal_markers": 17687,
+    "invalid_snps": 0,
+    "no_calls": 15116,
+    "chromosomes_found": [
+      "13",
+      "12",
+      "X",
+      "1",
+      "21",
+      "5",
+      "2",
+      "18",
+      "MT",
+      "9",
+      "14",
+      "16",
+      "7",
+      "Y",
+      "22",
+      "8",
+      "17",
+      "20",
+      "15",
+      "11",
+      "4",
+      "6",
+      "19",
+      "10",
+      "3"
+    ],
+    "genotype_distribution": {
+      "TT": 105932,
+      "CC": 145923,
+      "GG": 146054,
+      "AA": 105893,
+      "AC": 9527,
+      "CT": 41257,
+      "AG": 40881,
+      "GT": 9485,
+      "--": 15116,
+      "CG": 344,
+      "ID": 58,
+      "AT": 235,
+      "G": 5580,
+      "T": 5405,
+      "I": 203,
+      "A": 5321,
+      "C": 5867,
+      "D": 80
+    },
+    "quality_metrics": {
+      "success_rate": 99.99626856969613,
+      "no_call_rate": 2.350266884963485,
+      "rs_snp_percentage": 97.24998872755033,
+      "chromosome_coverage": 25,
+      "genotype_diversity": 18
+    },
+    "file_metadata": {
+      "file_id": "9185d421-0903-4c4b-857b-faaaf96e1b51",
+      "signature": "1e5f545e51e64fa67ed8287b4faf8d47cd7a1ff8118205fd60d5a5a2d0955f10",
+      "timestamp": "2025-04-10 13",
+      "source": "23andMe",
+      "improvements in our ability to call genotypes. More information about these changes can be found at": "",
+      "https": "//www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/",
+      "More information on reference human assembly builds": ""
+    },
+    "summary": {
+      "total_snps_parsed": 643161,
+      "rs_snps_count": 625474,
+      "internal_markers_count": 17687,
+      "parsing_success_rate": 99.99626856969613,
+      "data_quality_score": 92.95
+    }
+  },
+  "performance": {
+    "parsing_time_seconds": 2.539544105529785,
+    "analysis_time_seconds": 3.1778676509857178,
+    "total_time_seconds": 5.717411756515503
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "timestamp": "2025-06-29T03:30:59.635326",
+  "analysis_type": "G25_Ancestry_Analysis",
+  "methodology": "Global25_Coordinate_System + Oracle_Algorithm",
+  "file_info": {
+    "filename": "genome_Taariq_Hassan_v5_Full_20250410133723.txt",
+    "total_lines": 643185,
+    "snps_parsed": 625474
+  },
+  "g25_ancestry_analysis": {
+    "ancestry_percentages": {
+      "S_Indian": 2.3039183100541294,
+      "Baloch": 9.016979660777587,
+      "Brahui": 6.775451094852931,
+      "Makrani": 6.9061361635121745,
+      "Sindhi": 11.768197413410652,
+      "Pathan": 5.897819311118039,
+      "NE_Asian": 7.360088634099511,
+      "SW_Asian": 10.796961531561166,
+      "NE_Euro": 3.5156319425092097,
+      "Mediterranean": 2.0661249070191174,
+      "Papuan": 16.297345371794187,
+      "Beringian": 17.2953456592913
+    },
+    "regional_breakdown": {
+      "South_Asian": {
+        "Balochistan_Pakistan": 5.410187796466552,
+        "Balochistan_Iran": 2.2542449151943966,
+        "Brahui_Balochistan": 1.352546949116638
+      },
+      "East_Asian": {
+        "Han_Chinese_North": 2.9440354536398043,
+        "Han_Chinese_South": 2.2080265902298533,
+        "Korean": 1.4720177268199022,
+        "Mongolian": 0.7360088634099511
+      },
+      "Middle_Eastern": {
+        "Iranian_Plateau": 5.398480765780583,
+        "Kurdish": 2.6992403828902916,
+        "Armenian": 2.6992403828902916
+      }
+    },
+    "g25_coordinates": [
+      0.05077776148777102,
+      0.026096758190598937,
+      0.07911574426456505,
+      0.048864099905796016,
+      -0.0037951245695780214,
+      0.005825852314791187,
+      -0.0335681951412285,
+      0.029303656554818293,
+      -0.08597880241922688,
+      0.04982310424743563,
+      -0.0722706769645136,
+      -0.06651034123158477,
+      0.04288245345053113,
+      0.05522748767320588,
+      0.02562596035336801,
+      0.10218706106656375,
+      0.0567676480995484,
+      0.025596235514579,
+      0.013451983102482476,
+      0.09128997290764043,
+      0.0258224289913527,
+      -0.04657174591057912,
+      0.0389124906442076,
+      0.04195724210083496,
+      0.0930296683453039
+    ],
+    "population_distances": {
+      "S_Indian": 0.392721670819359,
+      "Baloch": 0.32449676370121405,
+      "Brahui": 0.33878693780356023,
+      "Makrani": 0.3378317193707882,
+      "Sindhi": 0.3111821972142686,
+      "Pathan": 0.3457231014290983,
+      "NE_Asian": 0.33464863637708736,
+      "Han": 0.35806839407631685,
+      "Japanese": 0.3545951518130827,
+      "NE_Euro": 0.3715912704642805,
+      "Mediterranean": 0.39816849378168745,
+      "Sardinian": 0.34367673937482934,
+      "SW_Asian": 0.31548899740050507,
+      "Levantine": 0.32840334587705394,
+      "W_African": 0.4175441433695054,
+      "E_African": 0.4017845978405621,
+      "Papuan": 0.29490212344816114,
+      "Beringian": 0.29193036373074954
+    },
+    "oracle_results": {
+      "Beringian": 13.58050744786769,
+      "Papuan": 12.796865963949292,
+      "Sindhi": 9.240526079624443,
+      "SW_Asian": 8.477900319669914,
+      "Baloch": 7.080237761809455,
+      "Levantine": 6.548105988701403,
+      "NE_Asian": 5.779227572630687,
+      "Makrani": 5.422778789863666,
+      "Brahui": 5.320163347350175,
+      "Sardinian": 4.824504213563971,
+      "Pathan": 4.631036618674809,
+      "Japanese": 3.8780782210587117,
+      "Han": 3.6178317482545728,
+      "NE_Euro": 2.7605152692371377,
+      "S_Indian": 1.8090635703577451,
+      "Mediterranean": 1.622345412502604,
+      "E_African": 1.5091563808615365,
+      "W_African": 1.1011552940222031
+    },
+    "confidence_scores": {
+      "S_Indian": 7.026575900060145,
+      "Baloch": 14.485532956419542,
+      "Brahui": 11.994945660947701,
+      "Makrani": 12.140151292791305,
+      "Sindhi": 17.54244157045628,
+      "Pathan": 11.0197992345756,
+      "NE_Asian": 12.644542926777236,
+      "SW_Asian": 16.463290590623515,
+      "NE_Euro": 8.372924380565788,
+      "Mediterranean": 6.7623610077990195,
+      "Papuan": 22.57482819088243,
+      "Beringian": 23.683717399212554
+    },
+    "quality_metrics": {
+      "total_markers_used": 134,
+      "known_aims_used": 14,
+      "g25_coordinate_magnitude": 0.27677954648012965,
+      "average_population_distance": 0.34786359154956165,
+      "closest_population_distance": 0.29193036373074954,
+      "analysis_resolution": 18,
+      "g25_quality_score": 26.8
+    }
+  },
+  "comparison_with_harappaworld": {
+    "expected_results": {
+      "S_Indian": 47.4,
+      "Baloch": 32.4,
+      "NE_Asian": 4.6,
+      "SW_Asian": 4.0,
+      "NE_Euro": 3.2,
+      "Papuan": 3.2,
+      "Mediterranean": 2.8,
+      "Beringian": 2.4
+    },
+    "calculated_results": {
+      "S_Indian": 2.3039183100541294,
+      "Baloch": 9.016979660777587,
+      "NE_Asian": 7.360088634099511,
+      "SW_Asian": 10.796961531561166,
+      "NE_Euro": 3.5156319425092097,
+      "Mediterranean": 2.0661249070191174,
+      "Papuan": 16.297345371794187,
+      "Beringian": 17.2953456592913
+    },
+    "total_difference": 107.07835026140454,
+    "average_difference": 13.384793782675567
+  },
+  "parsing_statistics": {
+    "total_lines": 643185,
+    "valid_snps": 643161,
+    "rs_snps": 625474,
+    "internal_markers": 17687,
+    "invalid_snps": 0,
+    "no_calls": 15116,
+    "chromosomes_found": [
+      "20",
+      "13",
+      "9",
+      "6",
+      "18",
+      "X",
+      "21",
+      "17",
+      "Y",
+      "MT",
+      "22",
+      "5",
+      "10",
+      "19",
+      "11",
+      "16",
+      "4",
+      "2",
+      "15",
+      "14",
+      "12",
+      "3",
+      "8",
+      "7",
+      "1"
+    ],
+    "genotype_distribution": {
+      "TT": 105932,
+      "CC": 145923,
+      "GG": 146054,
+      "AA": 105893,
+      "AC": 9527,
+      "CT": 41257,
+      "AG": 40881,
+      "GT": 9485,
+      "--": 15116,
+      "CG": 344,
+      "ID": 58,
+      "AT": 235,
+      "G": 5580,
+      "T": 5405,
+      "I": 203,
+      "A": 5321,
+      "C": 5867,
+      "D": 80
+    },
+    "quality_metrics": {
+      "success_rate": 99.99626856969613,
+      "no_call_rate": 2.350266884963485,
+      "rs_snp_percentage": 97.24998872755033,
+      "chromosome_coverage": 25,
+      "genotype_diversity": 18
+    },
+    "file_metadata": {
+      "file_id": "9185d421-0903-4c4b-857b-faaaf96e1b51",
+      "signature": "1e5f545e51e64fa67ed8287b4faf8d47cd7a1ff8118205fd60d5a5a2d0955f10",
+      "timestamp": "2025-04-10 13",
+      "source": "23andMe",
+      "improvements in our ability to call genotypes. More information about these changes can be found at": "",
+      "https": "//www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/",
+      "More information on reference human assembly builds": ""
+    },
+    "summary": {
+      "total_snps_parsed": 643161,
+      "rs_snps_count": 625474,
+      "internal_markers_count": 17687,
+      "parsing_success_rate": 99.99626856969613,
+      "data_quality_score": 92.95
+    }
+  },
+  "performance": {
+    "parsing_time_seconds": 2.50370717048645,
+    "analysis_time_seconds": 5.304888010025024,
+    "total_time_seconds": 7.808595180511475
+  }
+}

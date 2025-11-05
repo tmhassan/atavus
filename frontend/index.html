@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/dna-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ultimate Genome Analyzer - Professional ancestry analysis with multiple calculators and G25 coordinates" />
+    <meta name="keywords" content="genome, ancestry, DNA, analysis, G25, HarappaWorld, Dodecad, Eurogenes, PuntDNAL" />
+    <meta name="author" content="Ultimate Genome Analyzer" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://genome-analyzer.com/" />
+    <meta property="og:title" content="Ultimate Genome Analyzer" />
+    <meta property="og:description" content="Professional ancestry analysis with multiple calculators and G25 coordinates" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://genome-analyzer.com/" />
+    <meta property="twitter:title" content="Ultimate Genome Analyzer" />
+    <meta property="twitter:description" content="Professional ancestry analysis with multiple calculators and G25 coordinates" />
+    <meta property="twitter:image" content="/og-image.png" />
+
+    <title>Ultimate Genome Analyzer - Professional Ancestry Analysis</title>
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Critical CSS for loading screen -->
+    <style>
+      /* Loading screen styles */
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      }
+      
+      .loading-spinner {
+        width: 64px;
+        height: 64px;
+        border: 4px solid #e5e7eb;
+        border-top: 4px solid #3b82f6;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 24px;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      .loading-text {
+        color: #374151;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      
+      .loading-subtext {
+        color: #6b7280;
+        font-size: 14px;
+      }
+      
+      /* Hide loading screen when app loads */
+      .app-loaded #loading-screen {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Ultimate Genome Analyzer</div>
+      <div class="loading-subtext">Initializing analysis environment...</div>
+    </div>
+    
+    <!-- React App Root -->
+    <div id="root"></div>
+    
+    <!-- Vite Entry Point -->
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Hide loading screen when app loads -->
+    <script>
+      window.addEventListener('load', function() {
+        document.body.classList.add('app-loaded');
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  genome-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./temp_uploads:/app/temp_uploads
+      - ./downloads:/app/downloads
+      - ../src:/app/src
+    environment:
+      - ENVIRONMENT=development
+      - LOG_LEVEL=info
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: genome_analyzer
+      POSTGRES_USER: genome_user
+      POSTGRES_PASSWORD: secure_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

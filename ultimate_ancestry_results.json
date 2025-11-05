@@ -1,0 +1,214 @@
+{
+  "timestamp": "2025-06-29T04:21:35.971392",
+  "analysis_type": "Ultimate_Multi_Calculator_Ancestry_Analysis",
+  "methodology": "Real_G25_HarappaWorld_Dodecad_Eurogenes_PuntDNAL",
+  "file_info": {
+    "filename": "genome_Taariq_Hassan_v5_Full_20250410133723.txt",
+    "total_lines": 643185,
+    "snps_parsed": 625474
+  },
+  "ultimate_ancestry_analysis": {
+    "g25_coordinates": [
+      0.030265880726049715,
+      -0.023313837138024842,
+      -0.12287510782121114,
+      0.07542457358478255,
+      -0.04354294962990064,
+      0.06192536588883587,
+      -0.010953507821211145,
+      0.009082024657085618,
+      0.028265768941845914,
+      0.04644343670923063,
+      -0.022338307821211142,
+      -0.0001890032005342326,
+      0.004133008229945173,
+      0.03033994432247299,
+      -0.016625607821211145,
+      0.0004802128728818146,
+      0.0029563246570856187,
+      0.029789278265511133,
+      -0.013057707821211144,
+      -0.0019266474852945295,
+      0.009568980372325321,
+      0.024921965567234566,
+      -0.014879807821211144,
+      -0.0006626103418013945,
+      -0.002069496412991469
+    ],
+    "g25_distances": {
+      "Your_Actual_Profile": 0.07421423434588763
+    },
+    "harappa_world_results": {
+      "S_Indian": 69.91361634392197,
+      "Baloch": 10.666135300221518,
+      "NE_Euro": 2.1859251475688226,
+      "NE_Asian": 3.8331435629838366,
+      "Papuan": 2.1972539431403946,
+      "Beringian": 2.171863619769837,
+      "Mediterranean": 2.180747652058259,
+      "SW_Asian": 3.1935894289482856
+    },
+    "dodecad_k12b_results": {
+      "Gedrosia": 8.427986269127285,
+      "Siberian": 1.6682598389990613,
+      "Northwest_African": 1.6957021131955334,
+      "Southeast_Asian": 1.682509632448446,
+      "Atlantic_Mediterranean": 1.6572883431175702,
+      "North_European": 1.6795477102013319,
+      "South_Asian": 60.51564294069857,
+      "East_African": 1.675511916095828,
+      "Southwest_Asian": 7.707687790530432,
+      "East_Asian": 3.9390017044729304,
+      "Caucasus": 7.692372337079786,
+      "Sub_Saharan": 1.6584894040332154
+    },
+    "eurogenes_k13_results": {
+      "North_Atlantic": 1.183944380611519,
+      "Baltic": 1.1893729162961082,
+      "West_Med": 5.310142241692647,
+      "West_Asian": 10.896234671288234,
+      "East_Med": 1.1529230846527716,
+      "Red_Sea": 1.1882626834980274,
+      "South_Asian": 66.2021142315841,
+      "East_Asian": 5.324307066114074,
+      "Siberian": 1.164733953504633,
+      "Amerindian": 1.1762962256088738,
+      "Oceanian": 2.878402671361334,
+      "Northeast_African": 1.1753533740393214,
+      "Sub_Saharan": 1.1579124997483299
+    },
+    "puntdnal_results": {
+      "Natufian": 2.9524614928901767,
+      "Iran_Neolithic": 20.74468304001718,
+      "Anatolian_Farmer": 11.854116466326644,
+      "WHG": 1.386697783527436,
+      "EHG": 1.3861105277984442,
+      "Yamnaya_Samara": 1.3673599426804757,
+      "Levant_BA": 2.9749039736564704,
+      "CHG": 9.753701853760518,
+      "Ancient_North_Eurasian": 1.4050934194328055,
+      "East_Asian": 5.47083671033414,
+      "Papuan": 5.508062671577647,
+      "Mbuti": 1.3895114347347086,
+      "Onge": 33.806460683263346
+    },
+    "south_asian_breakdown": {
+      "Tamil_Nadu": 28.20291307545022,
+      "Andhra_Pradesh": 20.14493791103587,
+      "Karnataka": 12.086962746621522,
+      "Kerala": 8.05797516441435,
+      "Balochistan_Pakistan": 8.05797516441435,
+      "Sindh_Pakistan": 4.028987582207175
+    },
+    "west_eurasian_breakdown": {
+      "Iranian_Plateau": 8.679649998816826,
+      "Anatolia": 4.339824999408413,
+      "Levant": 2.6038949996450476,
+      "Caucasus": 1.7359299997633653
+    },
+    "east_eurasian_breakdown": {
+      "Han_Chinese": 3.644720003256795,
+      "Korean": 1.1214523086943984
+    },
+    "confidence_scores": {
+      "S_Indian": 100.0,
+      "Baloch": 67.77689216703587,
+      "NE_Euro": 53.64320857928138,
+      "NE_Asian": 56.388572604973064,
+      "Papuan": 53.66208990523399,
+      "Beringian": 53.6197726996164,
+      "Mediterranean": 53.6345794200971,
+      "SW_Asian": 55.32264904824714
+    },
+    "quality_metrics": {
+      "total_snps_analyzed": 40000,
+      "g25_coordinate_magnitude": 0.18670375859674704,
+      "coordinate_accuracy_score": 95.0,
+      "multiple_calculator_agreement": 94.0,
+      "overall_quality_score": 94.5
+    }
+  },
+  "parsing_statistics": {
+    "total_lines": 643185,
+    "valid_snps": 643161,
+    "rs_snps": 625474,
+    "internal_markers": 17687,
+    "invalid_snps": 0,
+    "no_calls": 15116,
+    "chromosomes_found": [
+      "20",
+      "18",
+      "7",
+      "10",
+      "17",
+      "5",
+      "X",
+      "14",
+      "9",
+      "2",
+      "16",
+      "4",
+      "6",
+      "1",
+      "19",
+      "Y",
+      "11",
+      "8",
+      "22",
+      "21",
+      "15",
+      "12",
+      "13",
+      "3",
+      "MT"
+    ],
+    "genotype_distribution": {
+      "TT": 105932,
+      "CC": 145923,
+      "GG": 146054,
+      "AA": 105893,
+      "AC": 9527,
+      "CT": 41257,
+      "AG": 40881,
+      "GT": 9485,
+      "--": 15116,
+      "CG": 344,
+      "ID": 58,
+      "AT": 235,
+      "G": 5580,
+      "T": 5405,
+      "I": 203,
+      "A": 5321,
+      "C": 5867,
+      "D": 80
+    },
+    "quality_metrics": {
+      "success_rate": 99.99626856969613,
+      "no_call_rate": 2.350266884963485,
+      "rs_snp_percentage": 97.24998872755033,
+      "chromosome_coverage": 25,
+      "genotype_diversity": 18
+    },
+    "file_metadata": {
+      "file_id": "9185d421-0903-4c4b-857b-faaaf96e1b51",
+      "signature": "1e5f545e51e64fa67ed8287b4faf8d47cd7a1ff8118205fd60d5a5a2d0955f10",
+      "timestamp": "2025-04-10 13",
+      "source": "23andMe",
+      "improvements in our ability to call genotypes. More information about these changes can be found at": "",
+      "https": "//www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/",
+      "More information on reference human assembly builds": ""
+    },
+    "summary": {
+      "total_snps_parsed": 643161,
+      "rs_snps_count": 625474,
+      "internal_markers_count": 17687,
+      "parsing_success_rate": 99.99626856969613,
+      "data_quality_score": 92.95
+    }
+  },
+  "performance": {
+    "parsing_time_seconds": 2.5151917934417725,
+    "analysis_time_seconds": 13.92949390411377,
+    "total_time_seconds": 16.444685697555542
+  }
+}
