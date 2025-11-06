@@ -71,7 +71,7 @@ atavus/
 
 ```bash
 # Clone the repository
-git clone https://github.com/z0d1a/atavus.git
+git clone https://github.com/tmhassan/atavus.git
 cd atavus
 
 # Create virtual environment
@@ -371,7 +371,7 @@ MIT License - Free to use for personal and research purposes.
 
 ## 📧 Contact
 
-Created by [@z0d1a](https://github.com/z0d1a)
+Created by [@tmhassan](https://github.com/tmhassan)
 
 ---
 
